@@ -5,3 +5,4 @@
 /setup.cfg
 /dist/osu_sig-1.0.0.tar.gz
 .gitignore
+osu_sig/__pycache__/
