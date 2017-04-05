@@ -1,7 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
-/.pypirc
 /setup.py
 /MANIFEST
 /setup.cfg
 /dist/osu_sig-1.0.0.tar.gz
+.gitignore
