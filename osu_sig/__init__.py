@@ -76,7 +76,7 @@ def generate(name: str, colour: str, mode: Mode = Mode.osu, pp_dis: int = None,
     3: Glow and triangle
     :return: The osu signature link for that player
     """
-    name.replace(' ', '%20')
+    name = name.replace(' ', '%20')
     mode = str(mode.value)
     url = 'http://lemmmy.pw/osusig/sig.php?colour=hex{}&uname={}&mode={}'\
         .format(colour, name, mode)
